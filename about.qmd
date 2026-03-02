@@ -12,4 +12,12 @@ about:
       href: https://github.com
 ---
 
-Replace this text with a short bio about yourself. What are you studying? What are you interested in? What do you want to work on?
+Hi, I’m Manasvi 👋
+
+I’m a Master’s student in Business Analytics at UC Irvine with a background in Computer Science and Economics. I’m passionate about using data, machine learning, and AI to solve real-world business problems — especially in healthcare, pharmaceuticals, and emerging technologies.
+
+I’ve worked on projects ranging from financial sentiment analysis and stock prediction models to predictive analytics and dashboard development. My experience includes Python, SQL, machine learning, and data visualization tools like Power BI and Tableau.
+
+Beyond academics, I’m competitive by nature — I was captain of my college tennis team — which has shaped my leadership style, resilience, and ability to perform under pressure.
+
+I’m currently seeking opportunities in data analytics and AI-driven strategy roles where I can combine technical depth with business impact.

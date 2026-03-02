@@ -1,0 +1,54 @@
+---
+title: "Financial Sentiment Analysis: Predicting Market Reactions"
+author: "Manasvi Vardham"
+date: today
+categories: [machine learning, NLP, finance]
+description: >
+  Comparing FinBERT and VADER to evaluate robustness in financial sentiment classification.
+---
+
+## 📌 Project Overview
+
+This project explores how financial sentiment impacts stock behavior by comparing two popular NLP approaches:
+
+- **FinBERT** (domain-specific transformer model)
+- **VADER** (rule-based sentiment model)
+
+The goal was to evaluate model robustness and predictive signal strength when applied to financial text datasets.
+
+---
+
+## 🔍 Methodology
+
+1. Cleaned and preprocessed financial text data
+2. Generated sentiment scores using:
+   - FinBERT
+   - VADER
+3. Compared predicted sentiment vs. actual market movement
+4. Evaluated signal strength using correlation and regression analysis
+
+---
+
+## 📊 Key Findings
+
+- FinBERT showed stronger contextual understanding.
+- VADER performed well on clearly polarized statements but struggled with financial nuance.
+- Sentiment signal had moderate predictive power depending on volatility regime.
+
+---
+
+## 🛠 Tools Used
+
+- Python
+- HuggingFace Transformers
+- Pandas
+- Scikit-learn
+- Matplotlib
+
+---
+
+## 📈 Next Steps
+
+- Test multi-day lag effects
+- Expand dataset to additional tickers
+- Explore ensemble sentiment modeling
