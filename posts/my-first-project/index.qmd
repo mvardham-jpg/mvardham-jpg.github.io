@@ -5,6 +5,7 @@ date: today
 categories: [machine learning, NLP, finance]
 description: >
   Comparing FinBERT and VADER to evaluate robustness in financial sentiment classification.
+image: financial-sentiment-banner.png
 ---
 
 ## 📌 Project Overview
