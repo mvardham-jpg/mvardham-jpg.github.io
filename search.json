@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Replace this text with a short bio about yourself. What are you studying? What are you interested in? What do you want to work on?"
+    "text": "Hi, I’m Manasvi 👋\nI’m a Master’s student in Business Analytics at UC Irvine with a background in Computer Science and Economics. I’m passionate about using data, machine learning, and AI to solve real-world business problems — especially in healthcare, pharmaceuticals, and emerging technologies.\nI’ve worked on projects ranging from financial sentiment analysis and stock prediction models to predictive analytics and dashboard development. My experience includes Python, SQL, machine learning, and data visualization tools like Power BI and Tableau.\nBeyond academics, I’m competitive by nature — I was captain of my college tennis team — which has shaped my leadership style, resilience, and ability to perform under pressure.\nI’m currently seeking opportunities in data analytics and AI-driven strategy roles where I can combine technical depth with business impact."
   },
   {
     "objectID": "index.html",
@@ -19,5 +19,47 @@
     "title": "Welcome!",
     "section": "Next Steps",
     "text": "Next Steps\n\nEdit about.qmd with your info\nCreate a project post in posts/\nPush to main and your site will auto-deploy"
+  },
+  {
+    "objectID": "posts/my-first-project/index.html",
+    "href": "posts/my-first-project/index.html",
+    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "section": "",
+    "text": "This project explores how financial sentiment impacts stock behavior by comparing two popular NLP approaches:\n\nFinBERT (domain-specific transformer model)\nVADER (rule-based sentiment model)\n\nThe goal was to evaluate model robustness and predictive signal strength when applied to financial text datasets."
+  },
+  {
+    "objectID": "posts/my-first-project/index.html#project-overview",
+    "href": "posts/my-first-project/index.html#project-overview",
+    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "section": "",
+    "text": "This project explores how financial sentiment impacts stock behavior by comparing two popular NLP approaches:\n\nFinBERT (domain-specific transformer model)\nVADER (rule-based sentiment model)\n\nThe goal was to evaluate model robustness and predictive signal strength when applied to financial text datasets."
+  },
+  {
+    "objectID": "posts/my-first-project/index.html#methodology",
+    "href": "posts/my-first-project/index.html#methodology",
+    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "section": "🔍 Methodology",
+    "text": "🔍 Methodology\n\nCleaned and preprocessed financial text data\nGenerated sentiment scores using:\n\nFinBERT\nVADER\n\nCompared predicted sentiment vs. actual market movement\nEvaluated signal strength using correlation and regression analysis"
+  },
+  {
+    "objectID": "posts/my-first-project/index.html#key-findings",
+    "href": "posts/my-first-project/index.html#key-findings",
+    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "section": "📊 Key Findings",
+    "text": "📊 Key Findings\n\nFinBERT showed stronger contextual understanding.\nVADER performed well on clearly polarized statements but struggled with financial nuance.\nSentiment signal had moderate predictive power depending on volatility regime."
+  },
+  {
+    "objectID": "posts/my-first-project/index.html#tools-used",
+    "href": "posts/my-first-project/index.html#tools-used",
+    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "section": "🛠 Tools Used",
+    "text": "🛠 Tools Used\n\nPython\nHuggingFace Transformers\nPandas\nScikit-learn\nMatplotlib"
+  },
+  {
+    "objectID": "posts/my-first-project/index.html#next-steps",
+    "href": "posts/my-first-project/index.html#next-steps",
+    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "section": "📈 Next Steps",
+    "text": "📈 Next Steps\n\nTest multi-day lag effects\nExpand dataset to additional tickers\nExplore ensemble sentiment modeling"
   }
 ]
