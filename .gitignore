@@ -49,7 +49,7 @@ po/*~
 rsconnect/
 
 # Quarto
-/_site/
+
 /.quarto/
 
 **/*.quarto_ipynb
