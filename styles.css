@@ -1,1 +1,199 @@
-/* Custom styles — add your own here */
+/* =========================
+   Page Styling
+========================= */
+
+body {
+  background-color: #fafafa;
+}
+
+main {
+  max-width: 1100px;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Clean titles like sep.dev */
+
+h1 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: #2c2c2c;
+}
+
+/* subtle divider */
+
+hr {
+  margin: 1.5rem 0 2rem 0;
+  opacity: 0.15;
+  border: none;
+  border-top: 1px solid #e5e5e5;
+}
+
+
+/* subtle background accent */
+
+body::after {
+  content: "";
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, #e8f0ff, transparent);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+
+/* =========================
+   Sidebar Styling
+========================= */
+
+.sidebar {
+  background-color: #f8f9fa;
+  border-right: 1px solid #f0f0f0;
+  padding-top: 22px;
+}
+
+/* Profile image */
+
+.sidebar-logo {
+  display: block;
+  margin: 0 auto 14px auto;
+  max-width: 150px;
+  border-radius: 12px;
+}
+
+/* Search spacing */
+
+.sidebar-search {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* Social icons */
+
+.sidebar-item:first-child {
+  margin-top: 6px;
+  margin-bottom: 18px;
+}
+
+.sidebar-item:first-child .sidebar-item-container,
+.sidebar-item:first-child .sidebar-link,
+.sidebar-item:first-child .menu-text {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  justify-content: flex-start !important;
+}
+
+.sidebar-social {
+  display: flex;
+  gap: 12px;
+  margin-left: 4px;
+  font-size: 1.6rem;
+}
+
+.sidebar-social a {
+  color: #6c757d;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.sidebar-social a:hover {
+  color: #0d6efd;
+  transform: translateY(-1px);
+}
+
+/* Navigation spacing */
+
+.sidebar-navigation {
+  margin-top: 8px;
+}
+
+
+/* =========================
+   Homepage Styling
+========================= */
+
+.quarto-title-block + p {
+  margin-bottom: 1.5rem;
+}
+
+
+/* =========================
+   Project Cards
+========================= */
+
+/* Make layout wider */
+main {
+  max-width: 1100px;
+}
+
+/* Let Quarto handle grid, just improve sizing */
+.quarto-listing-container-grid {
+  margin-top: 1.2rem;
+}
+
+/* Make cards wider + cleaner */
+.quarto-grid-item {
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  transition: 0.2s ease;
+}
+
+/* Hover effect */
+.quarto-grid-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+/* Fix image sizing */
+.quarto-grid-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Improve card spacing */
+.quarto-listing-container-grid .g-col-1,
+.quarto-listing-container-grid .g-col-2,
+.quarto-listing-container-grid .g-col-3 {
+  min-width: 300px;
+}
+
+/* =========================
+   About Page Styling
+========================= */
+
+.about-image img {
+  max-width: 200px;
+  border-radius: 12px;
+}
+
+.about-contents {
+  max-width: 850px;
+  margin-left: 0;
+}
+
+
+/* =========================
+   Buttons
+========================= */
+
+.btn {
+  margin-right: 10px;
+  margin-top: 10px;
+}
