@@ -2,57 +2,197 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "About",
     "section": "",
-    "text": "Hi, I’m Manasvi 👋\nI’m a Master’s student in Business Analytics at UC Irvine with a background in Computer Science and Economics. I’m passionate about using data, machine learning, and AI to solve real-world business problems — especially in healthcare, pharmaceuticals, and emerging technologies.\nI’ve worked on projects ranging from financial sentiment analysis and stock prediction models to predictive analytics and dashboard development. My experience includes Python, SQL, machine learning, and data visualization tools like Power BI and Tableau.\nBeyond academics, I’m competitive by nature — I was captain of my college tennis team — which has shaped my leadership style, resilience, and ability to perform under pressure.\nI’m currently seeking opportunities in data analytics and AI-driven strategy roles where I can combine technical depth with business impact."
+    "text": "Hello! I’m Manasvi, currently a Master’s student in Business Analytics at UC Irvine. I have a background in Computer Science and Economics, and I’m interested in how data and AI can be used to solve real-world business problems.",
+    "crumbs": [
+      "About"
+    ]
   },
   {
-    "objectID": "posts/my-first-project/index.html",
-    "href": "posts/my-first-project/index.html",
-    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "objectID": "about.html#my-background",
+    "href": "about.html#my-background",
+    "title": "About",
+    "section": "My Background",
+    "text": "My Background\nI hold a B.A. in Computer Science and Economics from Whittier College, where I also served as captain of the women’s tennis team and developed strong leadership and teamwork skills. My academic and professional experience focuses on data analytics and business intelligence, applying data-driven insights to solve real-world business problems.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#what-i-do",
+    "href": "about.html#what-i-do",
+    "title": "About",
+    "section": "What I Do",
+    "text": "What I Do\nI focus on using data to support better decision-making and uncover insights that drive impact. My strengths include:\n\nWorking with data to identify patterns, build models, and generate insights that support business decisions.\nPresenting complex information in a clear and actionable way using tools like Power BI, Tableau, and interactive dashboards.\nApproaching problems with a structured mindset and translating data into practical business recommendations.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#my-interests",
+    "href": "about.html#my-interests",
+    "title": "About",
+    "section": "My Interests",
+    "text": "My Interests\nI’m particularly interested in the intersection of technology, healthcare, and business. I enjoy working on problems that have real-world impact and require both technical and strategic thinking.\nOutside of work, I enjoy staying active, playing tennis, and exploring new ideas and creative projects.",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#view-my-projects",
+    "href": "about.html#view-my-projects",
+    "title": "About",
+    "section": "View My Projects",
+    "text": "View My Projects\nI enjoy building data-driven projects that apply analytics, machine learning, and visualization to real-world problems.\nYou can explore my latest work here:\n🔗 GitHub Projects",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "about.html#lets-connect",
+    "href": "about.html#lets-connect",
+    "title": "About",
+    "section": "Let’s Connect",
+    "text": "Let’s Connect\nI’m always open to opportunities, collaborations, and conversations about data, analytics, and business insights.\nFeel free to connect with me:\n🔗 LinkedIn\nThanks for stopping by!",
+    "crumbs": [
+      "About"
+    ]
+  },
+  {
+    "objectID": "posts/my-first-project/financial_sentiment.html",
+    "href": "posts/my-first-project/financial_sentiment.html",
+    "title": "Do AI Models Actually Understand Financial Sentiment?",
     "section": "",
-    "text": "This project explores how financial sentiment impacts stock behavior by comparing two popular NLP approaches:\n\nFinBERT (domain-specific transformer model)\nVADER (rule-based sentiment model)\n\nThe goal was to evaluate model robustness and predictive signal strength when applied to financial text datasets."
+    "text": "Financial markets move fast, and a lot of investor sentiment now lives online on platforms like Reddit and Twitter.\nBut here’s the real question:\nDo AI models actually understand financial language, or are they just picking up patterns?\nIn this project, we tested how different models interpret financial text, and more importantly, how they react when the meaning of a sentence changes.\nWe compared:\n\nVADER (a simple rule-based model)\nFinBERT (an AI model trained on financial text)\nChatGPT and Gemini (modern AI models)"
   },
   {
-    "objectID": "posts/my-first-project/index.html#project-overview",
-    "href": "posts/my-first-project/index.html#project-overview",
-    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "objectID": "posts/my-first-project/financial_sentiment.html#project-overview",
+    "href": "posts/my-first-project/financial_sentiment.html#project-overview",
+    "title": "Do AI Models Actually Understand Financial Sentiment?",
     "section": "",
-    "text": "This project explores how financial sentiment impacts stock behavior by comparing two popular NLP approaches:\n\nFinBERT (domain-specific transformer model)\nVADER (rule-based sentiment model)\n\nThe goal was to evaluate model robustness and predictive signal strength when applied to financial text datasets."
+    "text": "Financial markets move fast, and a lot of investor sentiment now lives online on platforms like Reddit and Twitter.\nBut here’s the real question:\nDo AI models actually understand financial language, or are they just picking up patterns?\nIn this project, we tested how different models interpret financial text, and more importantly, how they react when the meaning of a sentence changes.\nWe compared:\n\nVADER (a simple rule-based model)\nFinBERT (an AI model trained on financial text)\nChatGPT and Gemini (modern AI models)"
   },
   {
-    "objectID": "posts/my-first-project/index.html#methodology",
-    "href": "posts/my-first-project/index.html#methodology",
-    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
-    "section": "🔍 Methodology",
-    "text": "🔍 Methodology\n\nCleaned and preprocessed financial text data\nGenerated sentiment scores using:\n\nFinBERT\nVADER\n\nCompared predicted sentiment vs. actual market movement\nEvaluated signal strength using correlation and regression analysis"
+    "objectID": "posts/my-first-project/financial_sentiment.html#what-we-did",
+    "href": "posts/my-first-project/financial_sentiment.html#what-we-did",
+    "title": "Do AI Models Actually Understand Financial Sentiment?",
+    "section": "🔍 What We Did",
+    "text": "🔍 What We Did\nInstead of only checking accuracy, we went a step further.\n\nWe gave each model real financial posts from Reddit and Twitter\n\nAsked them to classify sentiment as positive, negative, or neutral\n\nThen we changed key words like “bullish” to “bearish”\n\nAnd checked if the model’s prediction change when the meaning changed?\n\nThis helped us test whether the models were actually reasoning, not just guessing."
   },
   {
-    "objectID": "posts/my-first-project/index.html#key-findings",
-    "href": "posts/my-first-project/index.html#key-findings",
-    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "objectID": "posts/my-first-project/financial_sentiment.html#key-findings",
+    "href": "posts/my-first-project/financial_sentiment.html#key-findings",
+    "title": "Do AI Models Actually Understand Financial Sentiment?",
     "section": "📊 Key Findings",
-    "text": "📊 Key Findings\n\nFinBERT showed stronger contextual understanding.\nVADER performed well on clearly polarized statements but struggled with financial nuance.\nSentiment signal had moderate predictive power depending on volatility regime."
+    "text": "📊 Key Findings\n\nThe simpler model, VADER, actually performed better than FinBERT on real-world social media data\n\nFinBERT struggled and often predicted the same sentiment repeatedly\n\nChatGPT and Gemini performed the best overall, with more balanced and accurate predictions\n\nBut here’s the surprising part\n\nNone of the models were very good at understanding logical changes in meaning\nEven when we flipped words like “buy” to “sell”, many models did not react properly."
   },
   {
-    "objectID": "posts/my-first-project/index.html#tools-used",
-    "href": "posts/my-first-project/index.html#tools-used",
-    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
+    "objectID": "posts/my-first-project/financial_sentiment.html#what-this-means",
+    "href": "posts/my-first-project/financial_sentiment.html#what-this-means",
+    "title": "Do AI Models Actually Understand Financial Sentiment?",
+    "section": "🧠 What This Means",
+    "text": "🧠 What This Means\nMost models can look accurate on paper but still fail basic reasoning.\nThis shows that:\n\nAccuracy alone is not enough to judge AI performance\n\nModels can miss important context in financial language\n\nTesting how models handle changes in meaning is just as important"
+  },
+  {
+    "objectID": "posts/my-first-project/financial_sentiment.html#tools-used",
+    "href": "posts/my-first-project/financial_sentiment.html#tools-used",
+    "title": "Do AI Models Actually Understand Financial Sentiment?",
     "section": "🛠 Tools Used",
-    "text": "🛠 Tools Used\n\nPython\nHuggingFace Transformers\nPandas\nScikit-learn\nMatplotlib"
+    "text": "🛠 Tools Used\n\nPython\n\nHuggingFace (for FinBERT)\n\nOpenAI API (ChatGPT)\n\nPandas and Scikit-learn"
   },
   {
-    "objectID": "posts/my-first-project/index.html#next-steps",
-    "href": "posts/my-first-project/index.html#next-steps",
-    "title": "Financial Sentiment Analysis: Predicting Market Reactions",
-    "section": "📈 Next Steps",
-    "text": "📈 Next Steps\n\nTest multi-day lag effects\nExpand dataset to additional tickers\nExplore ensemble sentiment modeling"
+    "objectID": "posts/my-first-project/financial_sentiment.html#whats-next",
+    "href": "posts/my-first-project/financial_sentiment.html#whats-next",
+    "title": "Do AI Models Actually Understand Financial Sentiment?",
+    "section": "📈 What’s Next",
+    "text": "📈 What’s Next\n\nImprove testing with more realistic sentence changes\n\nTrain models specifically on social media financial data\n\nExplore combining multiple models for better performance"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html",
+    "href": "posts/my-first-project/rag_financial_chatbot.html",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "",
+    "text": "Financial markets move fast, and critical information often lives in corporate announcements. This project builds a Retrieval-Augmented Generation (RAG) chatbot that allows users to ask financial questions and receive context-grounded answers with citations.\nThe system is designed for Saudi Stock Exchange (Tadawul) corporate announcements and supports multi-turn conversations, advanced retrieval, and a deployed web interface.\nLive App:\nhttps://nlp-rag-powered-domain-expert-chatbot.streamlit.app/"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#project-overview",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#project-overview",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "",
+    "text": "Financial markets move fast, and critical information often lives in corporate announcements. This project builds a Retrieval-Augmented Generation (RAG) chatbot that allows users to ask financial questions and receive context-grounded answers with citations.\nThe system is designed for Saudi Stock Exchange (Tadawul) corporate announcements and supports multi-turn conversations, advanced retrieval, and a deployed web interface.\nLive App:\nhttps://nlp-rag-powered-domain-expert-chatbot.streamlit.app/"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#key-features",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#key-features",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "🎯 Key Features",
+    "text": "🎯 Key Features\n\nCitation-backed answers\n\nMulti-turn conversation memory\n\nCross-encoder re-ranking for improved accuracy\n\nPersistent vector database\n\nInteractive Streamlit UI\n\nFully local execution"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#how-it-works",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#how-it-works",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "🧠 How It Works",
+    "text": "🧠 How It Works\nThe chatbot follows a Retrieval-Augmented Generation pipeline:\n\nUser submits financial query\n\nRelevant documents retrieved from vector database\n\nCross-encoder re-ranking improves accuracy\n\nLanguage model generates response\n\nSources displayed with citations\n\nThis approach reduces hallucination and improves reliability for financial analysis. :contentReferenceoaicite:0"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#dataset",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#dataset",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "📊 Dataset",
+    "text": "📊 Dataset\n\nDomain: Corporate Financial Announcements\n\nDocuments: 1,800+\n\nContent Includes:\n\nDividend announcements\n\nEarnings reports\n\nCorporate contracts\n\nRegulatory disclosures\n\n\nTo improve retrieval quality: - Duplicate rows removed\n- Missing summaries removed\n- Smart chunking implemented"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#technical-architecture",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#technical-architecture",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "⚙️ Technical Architecture",
+    "text": "⚙️ Technical Architecture\nEmbedding Model\n- sentence-transformers/all-MiniLM-L6-v2\nVector Database\n- ChromaDB (Persistent Mode)\nRe-Ranking Model\n- ms-marco-MiniLM-L-6-v2\nGeneration Model\n- google/flan-t5-base\nThis two-stage retrieval pipeline significantly improves answer accuracy. :contentReferenceoaicite:1"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#conversation-memory",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#conversation-memory",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "💬 Conversation Memory",
+    "text": "💬 Conversation Memory\nThe chatbot supports multi-turn conversations by storing recent interactions.\nExample:\nUser:\n“What dividend did Aramco announce?”\nFollow-up:\n“When was it announced?”\nThe system maintains context to improve retrieval accuracy."
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#deployment",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#deployment",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "🖥️ Deployment",
+    "text": "🖥️ Deployment\nThe chatbot is deployed using Streamlit with:\n\nChat-style interface\n\nExpandable citations\n\nInput validation\n\nPublic deployment support"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#tools-used",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#tools-used",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "🛠️ Tools Used",
+    "text": "🛠️ Tools Used\n\nPython\n\nChromaDB\n\nSentence Transformers\n\nHugging Face Transformers\n\nStreamlit\n\nPandas"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#github-repository",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#github-repository",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "📂 GitHub Repository",
+    "text": "📂 GitHub Repository\nView full project and code:\nhttps://github.com/yjiiak06/NLP-RAG-Powered-Domain-Expert-Chatbot"
+  },
+  {
+    "objectID": "posts/my-first-project/rag_financial_chatbot.html#impact",
+    "href": "posts/my-first-project/rag_financial_chatbot.html#impact",
+    "title": "RAG-Powered Financial Announcement Chatbot",
+    "section": "🚀 Impact",
+    "text": "🚀 Impact\nThis project demonstrates how RAG systems can improve reliability in financial NLP applications by combining retrieval, re-ranking, and generation into a single pipeline.\nIt highlights practical applications of: - Large Language Models\n- Information Retrieval\n- NLP\n- Financial Analytics"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Hi, I’m Manasvi 👋",
+    "title": "Hi, I’m Manasvi Vardham 👋",
     "section": "",
-    "text": "MS in Business Analytics @ UC Irvine\nAI • Machine Learning • Healthcare Analytics\nI build data-driven systems that turn complex information into actionable insights."
+    "text": "I use this space to share projects, ideas, and work focused on data analytics, machine learning, and real-world problem solving.",
+    "crumbs": [
+      "Home"
+    ]
   }
 ]
