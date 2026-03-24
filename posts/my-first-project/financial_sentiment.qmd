@@ -1,0 +1,84 @@
+---
+title: "Do AI Models Actually Understand Financial Sentiment?"
+author: "Manasvi Vardham"
+date: today
+categories: [machine learning, NLP, finance, LLMs]
+description: >
+  A simple comparison of how different AI models interpret financial sentiment and whether they truly understand what they’re reading.
+image: financial_sentiment_banner.png
+page-layout: full
+toc: false
+---
+
+## 📌 Project Overview
+
+Financial markets move fast, and a lot of investor sentiment now lives online on platforms like Reddit and Twitter.
+
+But here’s the real question:
+
+Do AI models actually understand financial language, or are they just picking up patterns?
+
+In this project, we tested how different models interpret financial text, and more importantly, how they react when the meaning of a sentence changes.
+
+We compared:
+
+- **VADER** (a simple rule-based model)
+- **FinBERT** (an AI model trained on financial text)
+- **ChatGPT and Gemini** (modern AI models)
+
+---
+
+## 🔍 What We Did
+
+Instead of only checking accuracy, we went a step further.
+
+1. We gave each model real financial posts from Reddit and Twitter  
+2. Asked them to classify sentiment as positive, negative, or neutral  
+3. Then we changed key words like “bullish” to “bearish”  
+4. And checked if the model’s prediction change when the meaning changed?
+
+This helped us test whether the models were actually reasoning, not just guessing.
+
+---
+
+## 📊 Key Findings
+
+- The simpler model, VADER, actually performed better than FinBERT on real-world social media data  
+- FinBERT struggled and often predicted the same sentiment repeatedly  
+- ChatGPT and Gemini performed the best overall, with more balanced and accurate predictions  
+- But here’s the surprising part  
+
+None of the models were very good at understanding logical changes in meaning  
+
+Even when we flipped words like “buy” to “sell”, many models did not react properly.
+
+---
+
+## 🧠 What This Means
+
+Most models can look accurate on paper but still fail basic reasoning.
+
+This shows that:
+
+- Accuracy alone is not enough to judge AI performance  
+- Models can miss important context in financial language  
+- Testing how models handle changes in meaning is just as important  
+
+---
+
+## 🛠 Tools Used
+
+- Python  
+- HuggingFace (for FinBERT)  
+- OpenAI API (ChatGPT)  
+- Pandas and Scikit-learn  
+
+---
+
+## 📈 What’s Next
+
+- Improve testing with more realistic sentence changes  
+- Train models specifically on social media financial data  
+- Explore combining multiple models for better performance  
+
+---

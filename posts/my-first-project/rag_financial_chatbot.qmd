@@ -1,0 +1,138 @@
+---
+title: "RAG-Powered Financial Announcement Chatbot"
+author: "Manasvi Vardham"
+date: today
+categories: [NLP, LLMs, machine learning, finance]
+description: >
+    A Retrieval-Augmented Generation chatbot for financial announcements with citation-based answers and multi-turn conversation support."
+image: rag_chatbot_banner.png
+page-layout: full
+toc: false
+---
+
+## 📌 Project Overview
+
+Financial markets move fast, and critical information often lives in corporate announcements. This project builds a **Retrieval-Augmented Generation (RAG)** chatbot that allows users to ask financial questions and receive **context-grounded answers with citations**.
+
+The system is designed for **Saudi Stock Exchange (Tadawul)** corporate announcements and supports multi-turn conversations, advanced retrieval, and a deployed web interface.
+
+**Live App:**  
+https://nlp-rag-powered-domain-expert-chatbot.streamlit.app/
+
+---
+
+## 🎯 Key Features
+
+- Citation-backed answers  
+- Multi-turn conversation memory  
+- Cross-encoder re-ranking for improved accuracy  
+- Persistent vector database  
+- Interactive Streamlit UI  
+- Fully local execution  
+
+---
+
+## 🧠 How It Works
+
+The chatbot follows a **Retrieval-Augmented Generation pipeline**:
+
+1. User submits financial query  
+2. Relevant documents retrieved from vector database  
+3. Cross-encoder re-ranking improves accuracy  
+4. Language model generates response  
+5. Sources displayed with citations  
+
+This approach reduces hallucination and improves reliability for financial analysis. :contentReference[oaicite:0]{index=0}
+
+---
+
+## 📊 Dataset
+
+- **Domain:** Corporate Financial Announcements  
+- **Documents:** 1,800+  
+- **Content Includes:**
+  - Dividend announcements  
+  - Earnings reports  
+  - Corporate contracts  
+  - Regulatory disclosures  
+
+To improve retrieval quality:
+- Duplicate rows removed  
+- Missing summaries removed  
+- Smart chunking implemented  
+
+---
+
+## ⚙️ Technical Architecture
+
+**Embedding Model**  
+- sentence-transformers/all-MiniLM-L6-v2
+
+**Vector Database**  
+- ChromaDB (Persistent Mode)
+
+**Re-Ranking Model**  
+- ms-marco-MiniLM-L-6-v2
+
+**Generation Model**  
+- google/flan-t5-base
+
+This two-stage retrieval pipeline significantly improves answer accuracy. :contentReference[oaicite:1]{index=1}
+
+---
+
+## 💬 Conversation Memory
+
+The chatbot supports multi-turn conversations by storing recent interactions.
+
+Example:
+
+User:  
+"What dividend did Aramco announce?"
+
+Follow-up:  
+"When was it announced?"
+
+The system maintains context to improve retrieval accuracy.
+
+---
+
+## 🖥️ Deployment
+
+The chatbot is deployed using **Streamlit** with:
+
+- Chat-style interface  
+- Expandable citations  
+- Input validation  
+- Public deployment support  
+
+---
+
+## 🛠️ Tools Used
+
+- Python  
+- ChromaDB  
+- Sentence Transformers  
+- Hugging Face Transformers  
+- Streamlit  
+- Pandas  
+
+---
+
+## 📂 GitHub Repository
+
+View full project and code:
+
+https://github.com/yjiiak06/NLP-RAG-Powered-Domain-Expert-Chatbot
+
+---
+
+## 🚀 Impact
+
+This project demonstrates how **RAG systems can improve reliability in financial NLP applications** by combining retrieval, re-ranking, and generation into a single pipeline.
+
+It highlights practical applications of:
+- Large Language Models  
+- Information Retrieval  
+- NLP  
+- Financial Analytics  

@@ -1,23 +1,46 @@
 ---
-title: "About Me"
-image: profile.jpg
-about:
-  template: jolla
-  links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: GitHub
-      href: https://github.com
+title: "About"
+page-layout: full
+toc: false
 ---
 
-Hi, I’m Manasvi 👋
+Hello! I’m Manasvi, currently a Master’s student in Business Analytics at UC Irvine. I have a background in Computer Science and Economics, and I’m interested in how data and AI can be used to solve real-world business problems.
 
-I’m a Master’s student in Business Analytics at UC Irvine with a background in Computer Science and Economics. I’m passionate about using data, machine learning, and AI to solve real-world business problems — especially in healthcare, pharmaceuticals, and emerging technologies.
+## My Background
 
-I’ve worked on projects ranging from financial sentiment analysis and stock prediction models to predictive analytics and dashboard development. My experience includes Python, SQL, machine learning, and data visualization tools like Power BI and Tableau.
+I hold a B.A. in Computer Science and Economics from Whittier College, where I also served as captain of the women’s tennis team and developed strong leadership and teamwork skills. My academic and professional experience focuses on data analytics and business intelligence, applying data-driven insights to solve real-world business problems.
 
-Beyond academics, I’m competitive by nature — I was captain of my college tennis team — which has shaped my leadership style, resilience, and ability to perform under pressure.
+## What I Do
 
-I’m currently seeking opportunities in data analytics and AI-driven strategy roles where I can combine technical depth with business impact.
+I focus on using data to support better decision-making and uncover insights that drive impact. My strengths include:
+
+- Working with data to identify patterns, build models, and generate insights that support business decisions.
+
+- Presenting complex information in a clear and actionable way using tools like Power BI, Tableau, and interactive dashboards.
+
+- Approaching problems with a structured mindset and translating data into practical business recommendations.
+
+## My Interests
+
+I’m particularly interested in the intersection of technology, healthcare, and business. I enjoy working on problems that have real-world impact and require both technical and strategic thinking.
+
+Outside of work, I enjoy staying active, playing tennis, and exploring new ideas and creative projects.
+
+## View My Projects
+
+I enjoy building data-driven projects that apply analytics, machine learning, and visualization to real-world problems.
+
+You can explore my latest work here:
+
+🔗 [GitHub Projects](https://github.com/mvardham-jpg)
+
+
+## Let’s Connect
+
+I'm always open to opportunities, collaborations, and conversations about data, analytics, and business insights.
+
+Feel free to connect with me:
+
+🔗 [LinkedIn](https://linkedin.com/in/manasvi-vardham)
+
+Thanks for stopping by!

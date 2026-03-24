@@ -3,14 +3,21 @@ project:
 
 website:
   title: "My Portfolio"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+
+  sidebar:
+    style: floating
+    search: true
+    logo: profile.jpg
+    contents:
+      - text: "<div class='sidebar-social'><a href='https://linkedin.com/in/manasvi-vardham' target='_blank' aria-label='LinkedIn'><i class='bi bi-linkedin'></i></a><a href='https://github.com/mvardham-jpg' target='_blank' aria-label='GitHub'><i class='bi bi-github'></i></a></div>"
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "CV"
+        href: resume.pdf
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true

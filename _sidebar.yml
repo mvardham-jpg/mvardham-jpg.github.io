@@ -1,0 +1,12 @@
+website:
+  sidebar:
+    - title: "Manasvi"
+      style: "floating"
+      search: true
+      contents:
+        - text: "Home"
+          href: index.qmd
+        - text: "About"
+          href: about.qmd
+        - text: "Projects"
+          href: projects.qmd

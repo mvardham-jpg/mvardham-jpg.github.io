@@ -1,12 +1,14 @@
-
-
-# Hi, I’m Manasvi 👋
-
-MS in Business Analytics @ UC Irvine  
-AI • Machine Learning • Healthcare Analytics  
-
-I build data-driven systems that turn complex information into actionable insights.
-
 ---
+page-layout: full
+
+listing:
+  contents: posts
+  sort: "date desc"
+  type: grid
+---
+# Hi, I’m **Manasvi Vardham** 👋
+
+I use this space to share projects, ideas, and work focused on data analytics, machine learning, and real-world problem solving.
 
 ## Projects
+
