@@ -14,8 +14,8 @@ website:
         href: index.qmd
       - text: "About"
         href: about.qmd
-      - text: "CV"
-        href: resume.pdf
+      - text: "Resume"
+        href: Resume.pdf
 
 format:
   html:
