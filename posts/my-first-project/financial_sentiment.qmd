@@ -10,7 +10,7 @@ page-layout: full
 toc: false
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Financial markets move fast, and a lot of investor sentiment now lives online on platforms like Reddit and Twitter.
 
@@ -28,7 +28,7 @@ We compared:
 
 ---
 
-## 🔍 What We Did
+## What We Did
 
 Instead of only checking accuracy, we went a step further.
 
@@ -41,7 +41,7 @@ This helped us test whether the models were actually reasoning, not just guessin
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 - The simpler model, VADER, actually performed better than FinBERT on real-world social media data  
 - FinBERT struggled and often predicted the same sentiment repeatedly  
@@ -54,7 +54,7 @@ Even when we flipped words like “buy” to “sell”, many models did not rea
 
 ---
 
-## 🧠 What This Means
+## What This Means
 
 Most models can look accurate on paper but still fail basic reasoning.
 
@@ -66,7 +66,7 @@ This shows that:
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - Python  
 - HuggingFace (for FinBERT)  
@@ -75,7 +75,15 @@ This shows that:
 
 ---
 
-## 📈 What’s Next
+## GitHub Repository
+
+View full project and code:
+
+[Code Repository](https://github.com/mvardham-jpg/NLP-Final-Project-Benchmarking-Financial-Sentiment-Reliability.git)
+
+---
+
+## What’s Next
 
 - Improve testing with more realistic sentence changes  
 - Train models specifically on social media financial data  

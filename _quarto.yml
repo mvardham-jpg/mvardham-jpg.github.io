@@ -8,8 +8,20 @@ website:
     style: floating
     search: true
     logo: profile.jpg
+
+    tools:
+      - icon: linkedin
+        href: https://linkedin.com/in/manasvi-vardham
+        target: _blank
+
+      - icon: github
+        href: https://github.com/mvardham
+        target: _blank
+
+      - icon: envelope
+        href: mailto:mvardham@uci.edu
+
     contents:
-      - text: "<div class='sidebar-social'><a href='https://linkedin.com/in/manasvi-vardham' target='_blank' aria-label='LinkedIn'><i class='bi bi-linkedin'></i></a><a href='https://github.com/mvardham-jpg' target='_blank' aria-label='GitHub'><i class='bi bi-github'></i></a></div>"
       - text: "Home"
         href: index.qmd
       - text: "About"

@@ -77,113 +77,120 @@
     "objectID": "posts/my-first-project/financial_sentiment.html#what-we-did",
     "href": "posts/my-first-project/financial_sentiment.html#what-we-did",
     "title": "Do AI Models Actually Understand Financial Sentiment?",
-    "section": "🔍 What We Did",
-    "text": "🔍 What We Did\nInstead of only checking accuracy, we went a step further.\n\nWe gave each model real financial posts from Reddit and Twitter\n\nAsked them to classify sentiment as positive, negative, or neutral\n\nThen we changed key words like “bullish” to “bearish”\n\nAnd checked if the model’s prediction change when the meaning changed?\n\nThis helped us test whether the models were actually reasoning, not just guessing."
+    "section": "What We Did",
+    "text": "What We Did\nInstead of only checking accuracy, we went a step further.\n\nWe gave each model real financial posts from Reddit and Twitter\n\nAsked them to classify sentiment as positive, negative, or neutral\n\nThen we changed key words like “bullish” to “bearish”\n\nAnd checked if the model’s prediction change when the meaning changed?\n\nThis helped us test whether the models were actually reasoning, not just guessing."
   },
   {
     "objectID": "posts/my-first-project/financial_sentiment.html#key-findings",
     "href": "posts/my-first-project/financial_sentiment.html#key-findings",
     "title": "Do AI Models Actually Understand Financial Sentiment?",
-    "section": "📊 Key Findings",
-    "text": "📊 Key Findings\n\nThe simpler model, VADER, actually performed better than FinBERT on real-world social media data\n\nFinBERT struggled and often predicted the same sentiment repeatedly\n\nChatGPT and Gemini performed the best overall, with more balanced and accurate predictions\n\nBut here’s the surprising part\n\nNone of the models were very good at understanding logical changes in meaning\nEven when we flipped words like “buy” to “sell”, many models did not react properly."
+    "section": "Key Findings",
+    "text": "Key Findings\n\nThe simpler model, VADER, actually performed better than FinBERT on real-world social media data\n\nFinBERT struggled and often predicted the same sentiment repeatedly\n\nChatGPT and Gemini performed the best overall, with more balanced and accurate predictions\n\nBut here’s the surprising part\n\nNone of the models were very good at understanding logical changes in meaning\nEven when we flipped words like “buy” to “sell”, many models did not react properly."
   },
   {
     "objectID": "posts/my-first-project/financial_sentiment.html#what-this-means",
     "href": "posts/my-first-project/financial_sentiment.html#what-this-means",
     "title": "Do AI Models Actually Understand Financial Sentiment?",
-    "section": "🧠 What This Means",
-    "text": "🧠 What This Means\nMost models can look accurate on paper but still fail basic reasoning.\nThis shows that:\n\nAccuracy alone is not enough to judge AI performance\n\nModels can miss important context in financial language\n\nTesting how models handle changes in meaning is just as important"
+    "section": "What This Means",
+    "text": "What This Means\nMost models can look accurate on paper but still fail basic reasoning.\nThis shows that:\n\nAccuracy alone is not enough to judge AI performance\n\nModels can miss important context in financial language\n\nTesting how models handle changes in meaning is just as important"
   },
   {
     "objectID": "posts/my-first-project/financial_sentiment.html#tools-used",
     "href": "posts/my-first-project/financial_sentiment.html#tools-used",
     "title": "Do AI Models Actually Understand Financial Sentiment?",
-    "section": "🛠 Tools Used",
-    "text": "🛠 Tools Used\n\nPython\n\nHuggingFace (for FinBERT)\n\nOpenAI API (ChatGPT)\n\nPandas and Scikit-learn"
+    "section": "Tools Used",
+    "text": "Tools Used\n\nPython\n\nHuggingFace (for FinBERT)\n\nOpenAI API (ChatGPT)\n\nPandas and Scikit-learn"
+  },
+  {
+    "objectID": "posts/my-first-project/financial_sentiment.html#github-repository",
+    "href": "posts/my-first-project/financial_sentiment.html#github-repository",
+    "title": "Do AI Models Actually Understand Financial Sentiment?",
+    "section": "GitHub Repository",
+    "text": "GitHub Repository\nView full project and code:\nCode Repository"
   },
   {
     "objectID": "posts/my-first-project/financial_sentiment.html#whats-next",
     "href": "posts/my-first-project/financial_sentiment.html#whats-next",
     "title": "Do AI Models Actually Understand Financial Sentiment?",
-    "section": "📈 What’s Next",
-    "text": "📈 What’s Next\n\nImprove testing with more realistic sentence changes\n\nTrain models specifically on social media financial data\n\nExplore combining multiple models for better performance"
+    "section": "What’s Next",
+    "text": "What’s Next\n\nImprove testing with more realistic sentence changes\n\nTrain models specifically on social media financial data\n\nExplore combining multiple models for better performance"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html",
     "href": "posts/my-first-project/rag_financial_chatbot.html",
     "title": "RAG-Powered Financial Announcement Chatbot",
     "section": "",
-    "text": "Financial markets move fast, and critical information often lives in corporate announcements. This project builds a Retrieval-Augmented Generation (RAG) chatbot that allows users to ask financial questions and receive context-grounded answers with citations.\nThe system is designed for Saudi Stock Exchange (Tadawul) corporate announcements and supports multi-turn conversations, advanced retrieval, and a deployed web interface.\nLive App:\nhttps://nlp-rag-powered-domain-expert-chatbot.streamlit.app/"
+    "text": "Financial markets move fast, and critical information often lives in corporate announcements. This project builds a Retrieval-Augmented Generation (RAG) chatbot that allows users to ask financial questions and receive context-grounded answers with citations.\nThe system is designed for Saudi Stock Exchange (Tadawul) corporate announcements and supports multi-turn conversations, advanced retrieval, and a deployed web interface.\nLive App:\nOpen Financial Chatbot"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#project-overview",
     "href": "posts/my-first-project/rag_financial_chatbot.html#project-overview",
     "title": "RAG-Powered Financial Announcement Chatbot",
     "section": "",
-    "text": "Financial markets move fast, and critical information often lives in corporate announcements. This project builds a Retrieval-Augmented Generation (RAG) chatbot that allows users to ask financial questions and receive context-grounded answers with citations.\nThe system is designed for Saudi Stock Exchange (Tadawul) corporate announcements and supports multi-turn conversations, advanced retrieval, and a deployed web interface.\nLive App:\nhttps://nlp-rag-powered-domain-expert-chatbot.streamlit.app/"
+    "text": "Financial markets move fast, and critical information often lives in corporate announcements. This project builds a Retrieval-Augmented Generation (RAG) chatbot that allows users to ask financial questions and receive context-grounded answers with citations.\nThe system is designed for Saudi Stock Exchange (Tadawul) corporate announcements and supports multi-turn conversations, advanced retrieval, and a deployed web interface.\nLive App:\nOpen Financial Chatbot"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#key-features",
     "href": "posts/my-first-project/rag_financial_chatbot.html#key-features",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "🎯 Key Features",
-    "text": "🎯 Key Features\n\nCitation-backed answers\n\nMulti-turn conversation memory\n\nCross-encoder re-ranking for improved accuracy\n\nPersistent vector database\n\nInteractive Streamlit UI\n\nFully local execution"
+    "section": "Key Features",
+    "text": "Key Features\n\nCitation-backed answers\n\nMulti-turn conversation memory\n\nCross-encoder re-ranking for improved accuracy\n\nPersistent vector database\n\nInteractive Streamlit UI\n\nFully local execution"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#how-it-works",
     "href": "posts/my-first-project/rag_financial_chatbot.html#how-it-works",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "🧠 How It Works",
-    "text": "🧠 How It Works\nThe chatbot follows a Retrieval-Augmented Generation pipeline:\n\nUser submits financial query\n\nRelevant documents retrieved from vector database\n\nCross-encoder re-ranking improves accuracy\n\nLanguage model generates response\n\nSources displayed with citations\n\nThis approach reduces hallucination and improves reliability for financial analysis. :contentReferenceoaicite:0"
+    "section": "How It Works",
+    "text": "How It Works\nThe chatbot follows a Retrieval-Augmented Generation pipeline:\n\nUser submits financial query\n\nRelevant documents retrieved from vector database\n\nCross-encoder re-ranking improves accuracy\n\nLanguage model generates response\n\nSources displayed with citations\n\nThis approach reduces hallucination and improves reliability for financial analysis. :contentReferenceoaicite:0"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#dataset",
     "href": "posts/my-first-project/rag_financial_chatbot.html#dataset",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "📊 Dataset",
-    "text": "📊 Dataset\n\nDomain: Corporate Financial Announcements\n\nDocuments: 1,800+\n\nContent Includes:\n\nDividend announcements\n\nEarnings reports\n\nCorporate contracts\n\nRegulatory disclosures\n\n\nTo improve retrieval quality: - Duplicate rows removed\n- Missing summaries removed\n- Smart chunking implemented"
+    "section": "Dataset",
+    "text": "Dataset\n\nDomain: Corporate Financial Announcements\n\nDocuments: 1,800+\n\nContent Includes:\n\nDividend announcements\n\nEarnings reports\n\nCorporate contracts\n\nRegulatory disclosures\n\n\nTo improve retrieval quality: - Duplicate rows removed\n- Missing summaries removed\n- Smart chunking implemented"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#technical-architecture",
     "href": "posts/my-first-project/rag_financial_chatbot.html#technical-architecture",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "⚙️ Technical Architecture",
-    "text": "⚙️ Technical Architecture\nEmbedding Model\n- sentence-transformers/all-MiniLM-L6-v2\nVector Database\n- ChromaDB (Persistent Mode)\nRe-Ranking Model\n- ms-marco-MiniLM-L-6-v2\nGeneration Model\n- google/flan-t5-base\nThis two-stage retrieval pipeline significantly improves answer accuracy. :contentReferenceoaicite:1"
+    "section": "Technical Architecture",
+    "text": "Technical Architecture\nEmbedding Model\n- sentence-transformers/all-MiniLM-L6-v2\nVector Database\n- ChromaDB (Persistent Mode)\nRe-Ranking Model\n- ms-marco-MiniLM-L-6-v2\nGeneration Model\n- google/flan-t5-base\nThis two-stage retrieval pipeline significantly improves answer accuracy. :contentReferenceoaicite:1"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#conversation-memory",
     "href": "posts/my-first-project/rag_financial_chatbot.html#conversation-memory",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "💬 Conversation Memory",
-    "text": "💬 Conversation Memory\nThe chatbot supports multi-turn conversations by storing recent interactions.\nExample:\nUser:\n“What dividend did Aramco announce?”\nFollow-up:\n“When was it announced?”\nThe system maintains context to improve retrieval accuracy."
+    "section": "Conversation Memory",
+    "text": "Conversation Memory\nThe chatbot supports multi-turn conversations by storing recent interactions.\nExample:\nUser:\n“What dividend did Aramco announce?”\nFollow-up:\n“When was it announced?”\nThe system maintains context to improve retrieval accuracy."
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#deployment",
     "href": "posts/my-first-project/rag_financial_chatbot.html#deployment",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "🖥️ Deployment",
-    "text": "🖥️ Deployment\nThe chatbot is deployed using Streamlit with:\n\nChat-style interface\n\nExpandable citations\n\nInput validation\n\nPublic deployment support"
+    "section": "Deployment",
+    "text": "Deployment\nThe chatbot is deployed using Streamlit with:\n\nChat-style interface\n\nExpandable citations\n\nInput validation\n\nPublic deployment support"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#tools-used",
     "href": "posts/my-first-project/rag_financial_chatbot.html#tools-used",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "🛠️ Tools Used",
-    "text": "🛠️ Tools Used\n\nPython\n\nChromaDB\n\nSentence Transformers\n\nHugging Face Transformers\n\nStreamlit\n\nPandas"
+    "section": "Tools Used",
+    "text": "Tools Used\n\nPython\n\nChromaDB\n\nSentence Transformers\n\nHugging Face Transformers\n\nStreamlit\n\nPandas"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#github-repository",
     "href": "posts/my-first-project/rag_financial_chatbot.html#github-repository",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "📂 GitHub Repository",
-    "text": "📂 GitHub Repository\nView full project and code:\nhttps://github.com/yjiiak06/NLP-RAG-Powered-Domain-Expert-Chatbot"
+    "section": "GitHub Repository",
+    "text": "GitHub Repository\nView full project and code:\nCode Repository"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#impact",
     "href": "posts/my-first-project/rag_financial_chatbot.html#impact",
     "title": "RAG-Powered Financial Announcement Chatbot",
-    "section": "🚀 Impact",
-    "text": "🚀 Impact\nThis project demonstrates how RAG systems can improve reliability in financial NLP applications by combining retrieval, re-ranking, and generation into a single pipeline.\nIt highlights practical applications of: - Large Language Models\n- Information Retrieval\n- NLP\n- Financial Analytics"
+    "section": "Impact",
+    "text": "Impact\nThis project demonstrates how RAG systems can improve reliability in financial NLP applications by combining retrieval, re-ranking, and generation into a single pipeline.\nIt highlights practical applications of:\n\nLarge Language Models\n\nInformation Retrieval\n\nNLP\n\nFinancial Analytics"
   },
   {
     "objectID": "index.html",

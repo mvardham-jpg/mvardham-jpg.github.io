@@ -10,18 +10,18 @@ page-layout: full
 toc: false
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Financial markets move fast, and critical information often lives in corporate announcements. This project builds a **Retrieval-Augmented Generation (RAG)** chatbot that allows users to ask financial questions and receive **context-grounded answers with citations**.
 
 The system is designed for **Saudi Stock Exchange (Tadawul)** corporate announcements and supports multi-turn conversations, advanced retrieval, and a deployed web interface.
 
 **Live App:**  
-https://nlp-rag-powered-domain-expert-chatbot.streamlit.app/
+[Open Financial Chatbot](https://nlp-rag-powered-domain-expert-chatbot.streamlit.app/)
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 - Citation-backed answers  
 - Multi-turn conversation memory  
@@ -32,7 +32,7 @@ https://nlp-rag-powered-domain-expert-chatbot.streamlit.app/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The chatbot follows a **Retrieval-Augmented Generation pipeline**:
 
@@ -46,7 +46,7 @@ This approach reduces hallucination and improves reliability for financial analy
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Domain:** Corporate Financial Announcements  
 - **Documents:** 1,800+  
@@ -63,7 +63,7 @@ To improve retrieval quality:
 
 ---
 
-## ⚙️ Technical Architecture
+## Technical Architecture
 
 **Embedding Model**  
 - sentence-transformers/all-MiniLM-L6-v2
@@ -81,7 +81,7 @@ This two-stage retrieval pipeline significantly improves answer accuracy. :conte
 
 ---
 
-## 💬 Conversation Memory
+## Conversation Memory
 
 The chatbot supports multi-turn conversations by storing recent interactions.
 
@@ -97,7 +97,7 @@ The system maintains context to improve retrieval accuracy.
 
 ---
 
-## 🖥️ Deployment
+## Deployment
 
 The chatbot is deployed using **Streamlit** with:
 
@@ -108,7 +108,7 @@ The chatbot is deployed using **Streamlit** with:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 - Python  
 - ChromaDB  
@@ -119,20 +119,23 @@ The chatbot is deployed using **Streamlit** with:
 
 ---
 
-## 📂 GitHub Repository
+## GitHub Repository
 
 View full project and code:
 
-https://github.com/yjiiak06/NLP-RAG-Powered-Domain-Expert-Chatbot
+[Code Repository](https://github.com/mvardham-jpg/NLP-RAG-Powered-Domain-Expert-Chatbot.git)
 
 ---
 
-## 🚀 Impact
+## Impact
 
 This project demonstrates how **RAG systems can improve reliability in financial NLP applications** by combining retrieval, re-ranking, and generation into a single pipeline.
 
 It highlights practical applications of:
+
 - Large Language Models  
 - Information Retrieval  
 - NLP  
 - Financial Analytics  
+
+---
