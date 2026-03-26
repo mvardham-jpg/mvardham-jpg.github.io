@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Manasvi Vardham">
+<meta name="dcterms.date" content="2026-03-26">
+<meta name="description" content="An analysis of how social media usage patterns such as screen time and sleep behavior relate to anxiety and depression severity using predictive analytics and data visualization.">
 
-<title>My Portfolio</title>
+<title>Predicting Mental Health from Social Media Behavior – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-afac9c94ee61a5079098f044aec5992a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-afac9c94ee61a5079098f044aec5992a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -70,67 +71,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar docked quarto-light">
@@ -142,7 +85,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Predicting Mental Health from Social Media Behavior</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -156,9 +99,9 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./profile.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="./profile.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <a href="../../index.html" class="sidebar-logo-link">
+      <img src="../../profile.jpg" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../profile.jpg" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://linkedin.com/in/manasvi-vardham" title="" class="quarto-navigation-tool px-1" aria-label="" target="_blank"><i class="bi bi-linkedin"></i></a>
@@ -175,19 +118,19 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Resume.pdf" class="sidebar-item-text sidebar-link">
+  <a href="../../Resume.pdf" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Resume</span></a>
   </div>
 </li>
@@ -198,99 +141,180 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-right" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Predicting Mental Health from Social Media Behavior</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">data visualization</div>
+    <div class="quarto-category">predictive analytics</div>
+    <div class="quarto-category">healthcare</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>An analysis of how social media usage patterns such as screen time and sleep behavior relate to anxiety and depression severity using predictive analytics and data visualization.</p>
+  </div>
+</div>
 
 
+<div class="quarto-title-meta column-page-right">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Manasvi Vardham </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 26, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
 
-<section id="hi-im-manasvi-vardham" class="level1">
-<h1>Hi, I’m <strong>Manasvi Vardham</strong> 👋</h1>
-<p>I use this space to share projects, ideas, and work focused on data analytics, machine learning, and real-world problem solving.</p>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
+</header>
 
+
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<p>Social media usage has grown rapidly over the past decade, especially among young adults. While these platforms help people connect and share information, they also raise concerns about their impact on mental health.</p>
+<p>In this project, we explored whether <strong>digital behavior patterns</strong> such as screen time, sleep duration, and usage habits can help predict <strong>anxiety and depression severity</strong>.</p>
+<p>Using data from <strong>8,000 users</strong>, we analyzed how social media behaviors relate to mental health outcomes measured using:</p>
+<ul>
+<li><strong>GAD-7</strong> for anxiety<br>
+</li>
+<li><strong>PHQ-9</strong> for depression</li>
+</ul>
+<p>The goal was to identify patterns and determine whether social media behavior can provide <strong>early signals of mental health risk</strong>.</p>
+<hr>
+</section>
+<section id="what-we-did" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-did">What We Did</h2>
+<p>We began by exploring the structure of the data and understanding how mental health outcomes were distributed.</p>
+<p>Our analysis focused on:</p>
+<ol type="1">
+<li>Visualizing anxiety and depression severity levels<br>
+</li>
+<li>Examining relationships between sleep and mental health<br>
+</li>
+<li>Analyzing daily screen time and behavioral patterns<br>
+</li>
+<li>Identifying nonlinear relationships between variables<br>
+</li>
+<li>Preparing data for predictive modeling</li>
+</ol>
+<p>We created multiple visualizations to better understand how behavioral variables relate to mental health outcomes before building predictive models.</p>
+<hr>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key Findings</h2>
+<section id="mental-health-distribution" class="level3">
+<h3 class="anchored" data-anchor-id="mental-health-distribution">Mental Health Distribution</h3>
+<ul>
+<li>Most individuals fall within <strong>Minimal and Mild</strong> anxiety and depression categories<br>
+</li>
+<li>Severe cases are relatively rare<br>
+</li>
+<li>Both distributions are skewed toward lower severity levels<br>
+</li>
+<li>Clear class imbalance exists across outcomes</li>
+</ul>
+<p>Understanding this distribution helped guide model selection and evaluation strategy.</p>
+<hr>
+</section>
+<section id="sleep-and-mental-health" class="level3">
+<h3 class="anchored" data-anchor-id="sleep-and-mental-health">Sleep and Mental Health</h3>
+<p>Sleep duration showed a strong relationship with both anxiety and depression.</p>
+<ul>
+<li>Increased sleep is associated with <strong>lower anxiety and depression scores</strong></li>
+<li>The relationship is <strong>nonlinear</strong></li>
+<li>Individuals sleeping <strong>3 to 5 hours</strong> show significantly higher risk</li>
+<li>Benefits of sleep begin to level off after <strong>8 to 9 hours</strong></li>
+</ul>
+<p>This suggests sleep duration is an important predictive factor.</p>
+<hr>
+</section>
+<section id="screen-time-and-mental-health" class="level3">
+<h3 class="anchored" data-anchor-id="screen-time-and-mental-health">Screen Time and Mental Health</h3>
+<p>Daily screen time also demonstrated strong relationships with mental health outcomes.</p>
+<ul>
+<li>Higher screen time is associated with <strong>higher anxiety and depression</strong></li>
+<li>Depression increases steadily as screen time increases<br>
+</li>
+<li>Anxiety rises quickly at moderate screen time levels<br>
+</li>
+<li>Relationships are nonlinear and not random</li>
+</ul>
+<p>These results indicate that <strong>digital usage patterns may serve as early warning signals</strong>.</p>
+<hr>
+</section>
+</section>
+<section id="what-this-means" class="level2">
+<h2 class="anchored" data-anchor-id="what-this-means">What This Means</h2>
+<p>The findings suggest that mental health outcomes are <strong>systematically related to digital behavior</strong>, not random.</p>
+<p>This means:</p>
+<ul>
+<li>Behavioral patterns can help identify mental health risk<br>
+</li>
+<li>Social media usage may provide early predictive signals<br>
+</li>
+<li>Nonlinear relationships highlight the complexity of mental health factors<br>
+</li>
+<li>Data-driven approaches can support mental health awareness and prevention</li>
+</ul>
+<p>This project demonstrates the potential for <strong>predictive analytics in healthcare and behavioral research</strong>.</p>
+<hr>
+</section>
+<section id="tools-used" class="level2">
+<h2 class="anchored" data-anchor-id="tools-used">Tools Used</h2>
+<ul>
+<li>R / Python<br>
+</li>
+<li>Data Visualization<br>
+</li>
+<li>Predictive Analytics<br>
+</li>
+<li>Statistical Analysis<br>
+</li>
+<li>Regression and Classification Modeling</li>
+</ul>
+<hr>
+</section>
+<section id="whats-next" class="level2">
+<h2 class="anchored" data-anchor-id="whats-next">What’s Next</h2>
+<ul>
+<li>Build regression and classification models<br>
+</li>
+<li>Identify strongest predictors<br>
+</li>
+<li>Evaluate predictive performance<br>
+</li>
+<li>Analyze subgroup differences across demographics<br>
+</li>
+<li>Explore real-world applications for early detection</li>
+</ul>
+<hr>
+</section>
+<section id="final-thoughts" class="level2">
+<h2 class="anchored" data-anchor-id="final-thoughts">Final Thoughts</h2>
+<p>Mental health is influenced by many factors, but digital behavior is becoming increasingly important.</p>
+<p>This project shows that social media usage patterns contain meaningful signals that can help predict anxiety and depression severity.</p>
+<p>As digital platforms continue to grow, data-driven insights like these can help support <strong>early intervention, awareness, and better mental health outcomes</strong>.</p>
 
 
 </section>
-</section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDZGF0YSUyMHZpc3VhbGl6YXRpb24lMkNwcmVkaWN0aXZlJTIwYW5hbHl0aWNzJTJDaGVhbHRoY2FyZQ==" data-listing-date-sort="1774483200000" data-listing-file-modified-sort="1774486131870" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="545">
-<a href="./posts/my-first-project/depression_prediction.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/my-first-project/social_media.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Predicting Mental Health from Social Media Behavior
-</h5>
-<div class="card-text listing-description delink">
-<p>An analysis of how social media usage patterns such as screen time and sleep behavior relate to anxiety and depression severity using predictive analytics and data…</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Manasvi Vardham
-</div>
-<div class="listing-date">
-Mar 26, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="TkxQJTJDTExNcyUyQ21hY2hpbmUlMjBsZWFybmluZyUyQ2ZpbmFuY2U=" data-listing-date-sort="1774310400000" data-listing-file-modified-sort="1774486074862" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="351">
-<a href="./posts/my-first-project/rag_financial_chatbot.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/my-first-project/rag_chatbot_banner.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-RAG-Powered Financial Announcement Chatbot
-</h5>
-<div class="card-text listing-description delink">
-<p>A Retrieval-Augmented Generation chatbot for financial announcements with citation-based answers and multi-turn conversation support.”</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Manasvi Vardham
-</div>
-<div class="listing-date">
-Mar 24, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="bWFjaGluZSUyMGxlYXJuaW5nJTJDTkxQJTJDZmluYW5jZSUyQ0xMTXM=" data-listing-date-sort="1773705600000" data-listing-file-modified-sort="1774486097790" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="336">
-<a href="./posts/my-first-project/financial_sentiment.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/my-first-project/financial_sentiment_banner.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Do AI Models Actually Understand Financial Sentiment?
-</h5>
-<div class="card-text listing-description delink">
-<p>A simple comparison of how different AI models interpret financial sentiment and whether they truly understand what they’re reading.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Manasvi Vardham
-</div>
-<div class="listing-date">
-Mar 17, 2026
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

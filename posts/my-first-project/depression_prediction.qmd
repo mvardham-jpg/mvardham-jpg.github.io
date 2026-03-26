@@ -1,0 +1,126 @@
+---
+title: "Predicting Mental Health from Social Media Behavior"
+author: "Manasvi Vardham"
+date: 03-26-2026
+categories: [machine learning, data visualization, predictive analytics, healthcare]
+description: >
+  An analysis of how social media usage patterns such as screen time and sleep
+  behavior relate to anxiety and depression severity using predictive analytics
+  and data visualization.
+image: social_media.png
+page-layout: full
+toc: false
+---
+
+## Project Overview
+
+Social media usage has grown rapidly over the past decade, especially among young adults. While these platforms help people connect and share information, they also raise concerns about their impact on mental health.
+
+In this project, we explored whether **digital behavior patterns** such as screen time, sleep duration, and usage habits can help predict **anxiety and depression severity**.
+
+Using data from **8,000 users**, we analyzed how social media behaviors relate to mental health outcomes measured using:
+
+- **GAD-7** for anxiety  
+- **PHQ-9** for depression  
+
+The goal was to identify patterns and determine whether social media behavior can provide **early signals of mental health risk**.
+
+---
+
+## What We Did
+
+We began by exploring the structure of the data and understanding how mental health outcomes were distributed.
+
+Our analysis focused on:
+
+1. Visualizing anxiety and depression severity levels  
+2. Examining relationships between sleep and mental health  
+3. Analyzing daily screen time and behavioral patterns  
+4. Identifying nonlinear relationships between variables  
+5. Preparing data for predictive modeling  
+
+We created multiple visualizations to better understand how behavioral variables relate to mental health outcomes before building predictive models.
+
+---
+
+## Key Findings
+
+### Mental Health Distribution
+
+- Most individuals fall within **Minimal and Mild** anxiety and depression categories  
+- Severe cases are relatively rare  
+- Both distributions are skewed toward lower severity levels  
+- Clear class imbalance exists across outcomes  
+
+Understanding this distribution helped guide model selection and evaluation strategy.
+
+---
+
+### Sleep and Mental Health
+
+Sleep duration showed a strong relationship with both anxiety and depression.
+
+- Increased sleep is associated with **lower anxiety and depression scores**
+- The relationship is **nonlinear**
+- Individuals sleeping **3 to 5 hours** show significantly higher risk
+- Benefits of sleep begin to level off after **8 to 9 hours**
+
+This suggests sleep duration is an important predictive factor.
+
+---
+
+### Screen Time and Mental Health
+
+Daily screen time also demonstrated strong relationships with mental health outcomes.
+
+- Higher screen time is associated with **higher anxiety and depression**
+- Depression increases steadily as screen time increases  
+- Anxiety rises quickly at moderate screen time levels  
+- Relationships are nonlinear and not random  
+
+These results indicate that **digital usage patterns may serve as early warning signals**.
+
+---
+
+## What This Means
+
+The findings suggest that mental health outcomes are **systematically related to digital behavior**, not random.
+
+This means:
+
+- Behavioral patterns can help identify mental health risk  
+- Social media usage may provide early predictive signals  
+- Nonlinear relationships highlight the complexity of mental health factors  
+- Data-driven approaches can support mental health awareness and prevention  
+
+This project demonstrates the potential for **predictive analytics in healthcare and behavioral research**.
+
+---
+
+## Tools Used
+
+- R / Python  
+- Data Visualization  
+- Predictive Analytics  
+- Statistical Analysis  
+- Regression and Classification Modeling  
+
+---
+
+## What’s Next
+
+- Build regression and classification models  
+- Identify strongest predictors  
+- Evaluate predictive performance  
+- Analyze subgroup differences across demographics  
+- Explore real-world applications for early detection  
+
+---
+
+## Final Thoughts
+
+Mental health is influenced by many factors, but digital behavior is becoming increasingly important.  
+
+This project shows that social media usage patterns contain meaningful signals that can help predict anxiety and depression severity.  
+
+As digital platforms continue to grow, data-driven insights like these can help support **early intervention, awareness, and better mental health outcomes**.

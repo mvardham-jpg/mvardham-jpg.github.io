@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/my-first-project/depression_prediction.html",
       "/posts/my-first-project/rag_financial_chatbot.html",
       "/posts/my-first-project/financial_sentiment.html"
     ]

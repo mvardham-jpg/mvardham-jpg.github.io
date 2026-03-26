@@ -5,7 +5,7 @@ website:
   title: "My Portfolio"
 
   sidebar:
-    style: floating
+    style: docked
     search: true
     logo: profile.jpg
 
@@ -32,4 +32,5 @@ website:
 format:
   html:
     theme: cosmo
+    page-layout: full
     css: styles.css

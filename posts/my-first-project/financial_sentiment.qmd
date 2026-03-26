@@ -1,7 +1,7 @@
 ---
 title: "Do AI Models Actually Understand Financial Sentiment?"
 author: "Manasvi Vardham"
-date: today
+date: 03-17-2026
 categories: [machine learning, NLP, finance, LLMs]
 description: >
   A simple comparison of how different AI models interpret financial sentiment and whether they truly understand what they’re reading.

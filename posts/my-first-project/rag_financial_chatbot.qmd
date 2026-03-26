@@ -1,7 +1,7 @@
 ---
 title: "RAG-Powered Financial Announcement Chatbot"
 author: "Manasvi Vardham"
-date: today
+date: 03-24-2026
 categories: [NLP, LLMs, machine learning, finance]
 description: >
     A Retrieval-Augmented Generation chatbot for financial announcements with citation-based answers and multi-turn conversation support."
