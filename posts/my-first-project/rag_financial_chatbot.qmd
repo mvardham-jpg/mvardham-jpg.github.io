@@ -26,9 +26,10 @@ The system is designed for **Saudi Stock Exchange (Tadawul)** corporate announce
 - Citation-backed answers  
 - Multi-turn conversation memory  
 - Cross-encoder re-ranking for improved accuracy  
+- LLM-based re-ranking for fine-grained passage scoring  
 - Persistent vector database  
 - Interactive Streamlit UI  
-- Fully local execution  
+- Fully local execution
 
 ---
 
@@ -73,6 +74,9 @@ To improve retrieval quality:
 
 **Re-Ranking Model**  
 - ms-marco-MiniLM-L-6-v2
+
+After initial retrieval, an **LLM-based re-ranker** scores candidate chunks for relevance 
+to the query, ensuring the most contextually appropriate passages are passed to the generator.
 
 **Generation Model**  
 - google/flan-t5-base
