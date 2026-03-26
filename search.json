@@ -60,6 +60,72 @@
     ]
   },
   {
+    "objectID": "posts/my-first-project/depression_prediction.html",
+    "href": "posts/my-first-project/depression_prediction.html",
+    "title": "Predicting Mental Health from Social Media Behavior",
+    "section": "",
+    "text": "Social media usage has grown rapidly over the past decade, especially among young adults. While these platforms help people connect and share information, they also raise concerns about their impact on mental health.\nIn this project, we explored whether digital behavior patterns such as screen time, sleep duration, and usage habits can help predict anxiety and depression severity.\nUsing data from 8,000 users, we analyzed how social media behaviors relate to mental health outcomes measured using:\n\nGAD-7 for anxiety\n\nPHQ-9 for depression\n\nThe goal was to identify patterns and determine whether social media behavior can provide early signals of mental health risk."
+  },
+  {
+    "objectID": "posts/my-first-project/depression_prediction.html#project-overview",
+    "href": "posts/my-first-project/depression_prediction.html#project-overview",
+    "title": "Predicting Mental Health from Social Media Behavior",
+    "section": "",
+    "text": "Social media usage has grown rapidly over the past decade, especially among young adults. While these platforms help people connect and share information, they also raise concerns about their impact on mental health.\nIn this project, we explored whether digital behavior patterns such as screen time, sleep duration, and usage habits can help predict anxiety and depression severity.\nUsing data from 8,000 users, we analyzed how social media behaviors relate to mental health outcomes measured using:\n\nGAD-7 for anxiety\n\nPHQ-9 for depression\n\nThe goal was to identify patterns and determine whether social media behavior can provide early signals of mental health risk."
+  },
+  {
+    "objectID": "posts/my-first-project/depression_prediction.html#what-we-did",
+    "href": "posts/my-first-project/depression_prediction.html#what-we-did",
+    "title": "Predicting Mental Health from Social Media Behavior",
+    "section": "What We Did",
+    "text": "What We Did\nWe began by exploring the structure of the data and understanding how mental health outcomes were distributed.\nOur analysis focused on:\n\nVisualizing anxiety and depression severity levels\n\nExamining relationships between sleep and mental health\n\nAnalyzing daily screen time and behavioral patterns\n\nIdentifying nonlinear relationships between variables\n\nPreparing data for predictive modeling\n\nWe created multiple visualizations to better understand how behavioral variables relate to mental health outcomes before building predictive models."
+  },
+  {
+    "objectID": "posts/my-first-project/depression_prediction.html#key-findings",
+    "href": "posts/my-first-project/depression_prediction.html#key-findings",
+    "title": "Predicting Mental Health from Social Media Behavior",
+    "section": "Key Findings",
+    "text": "Key Findings\n\nMental Health Distribution\n\nMost individuals fall within Minimal and Mild anxiety and depression categories\n\nSevere cases are relatively rare\n\nBoth distributions are skewed toward lower severity levels\n\nClear class imbalance exists across outcomes\n\nUnderstanding this distribution helped guide model selection and evaluation strategy.\n\n\n\nSleep and Mental Health\nSleep duration showed a strong relationship with both anxiety and depression.\n\nIncreased sleep is associated with lower anxiety and depression scores\nThe relationship is nonlinear\nIndividuals sleeping 3 to 5 hours show significantly higher risk\nBenefits of sleep begin to level off after 8 to 9 hours\n\nThis suggests sleep duration is an important predictive factor.\n\n\n\nScreen Time and Mental Health\nDaily screen time also demonstrated strong relationships with mental health outcomes.\n\nHigher screen time is associated with higher anxiety and depression\nDepression increases steadily as screen time increases\n\nAnxiety rises quickly at moderate screen time levels\n\nRelationships are nonlinear and not random\n\nThese results indicate that digital usage patterns may serve as early warning signals."
+  },
+  {
+    "objectID": "posts/my-first-project/depression_prediction.html#what-this-means",
+    "href": "posts/my-first-project/depression_prediction.html#what-this-means",
+    "title": "Predicting Mental Health from Social Media Behavior",
+    "section": "What This Means",
+    "text": "What This Means\nThe findings suggest that mental health outcomes are systematically related to digital behavior, not random.\nThis means:\n\nBehavioral patterns can help identify mental health risk\n\nSocial media usage may provide early predictive signals\n\nNonlinear relationships highlight the complexity of mental health factors\n\nData-driven approaches can support mental health awareness and prevention\n\nThis project demonstrates the potential for predictive analytics in healthcare and behavioral research."
+  },
+  {
+    "objectID": "posts/my-first-project/depression_prediction.html#tools-used",
+    "href": "posts/my-first-project/depression_prediction.html#tools-used",
+    "title": "Predicting Mental Health from Social Media Behavior",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nR / Python\n\nData Visualization\n\nPredictive Analytics\n\nStatistical Analysis\n\nRegression and Classification Modeling"
+  },
+  {
+    "objectID": "posts/my-first-project/depression_prediction.html#whats-next",
+    "href": "posts/my-first-project/depression_prediction.html#whats-next",
+    "title": "Predicting Mental Health from Social Media Behavior",
+    "section": "What’s Next",
+    "text": "What’s Next\n\nBuild regression and classification models\n\nIdentify strongest predictors\n\nEvaluate predictive performance\n\nAnalyze subgroup differences across demographics\n\nExplore real-world applications for early detection"
+  },
+  {
+    "objectID": "posts/my-first-project/depression_prediction.html#final-thoughts",
+    "href": "posts/my-first-project/depression_prediction.html#final-thoughts",
+    "title": "Predicting Mental Health from Social Media Behavior",
+    "section": "Final Thoughts",
+    "text": "Final Thoughts\nMental health is influenced by many factors, but digital behavior is becoming increasingly important.\nThis project shows that social media usage patterns contain meaningful signals that can help predict anxiety and depression severity.\nAs digital platforms continue to grow, data-driven insights like these can help support early intervention, awareness, and better mental health outcomes."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Manasvi Vardham 👋",
+    "section": "",
+    "text": "I use this space to share projects, ideas, and work focused on data analytics, machine learning, and real-world problem solving.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
     "objectID": "posts/my-first-project/financial_sentiment.html",
     "href": "posts/my-first-project/financial_sentiment.html",
     "title": "Do AI Models Actually Understand Financial Sentiment?",
@@ -114,16 +180,6 @@
     "title": "Do AI Models Actually Understand Financial Sentiment?",
     "section": "What’s Next",
     "text": "What’s Next\n\nImprove testing with more realistic sentence changes\n\nTrain models specifically on social media financial data\n\nExplore combining multiple models for better performance"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi, I’m Manasvi Vardham 👋",
-    "section": "",
-    "text": "I use this space to share projects, ideas, and work focused on data analytics, machine learning, and real-world problem solving.",
-    "crumbs": [
-      "Home"
-    ]
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html",
