@@ -200,7 +200,7 @@
     "href": "posts/my-first-project/rag_financial_chatbot.html#key-features",
     "title": "RAG-Powered Financial Announcement Chatbot",
     "section": "Key Features",
-    "text": "Key Features\n\nCitation-backed answers\n\nMulti-turn conversation memory\n\nCross-encoder re-ranking for improved accuracy\n\nPersistent vector database\n\nInteractive Streamlit UI\n\nFully local execution"
+    "text": "Key Features\n\nCitation-backed answers\n\nMulti-turn conversation memory\n\nCross-encoder re-ranking for improved accuracy\n\nLLM-based re-ranking for fine-grained passage scoring\n\nPersistent vector database\n\nInteractive Streamlit UI\n\nFully local execution"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#how-it-works",
@@ -221,7 +221,7 @@
     "href": "posts/my-first-project/rag_financial_chatbot.html#technical-architecture",
     "title": "RAG-Powered Financial Announcement Chatbot",
     "section": "Technical Architecture",
-    "text": "Technical Architecture\nEmbedding Model\n- sentence-transformers/all-MiniLM-L6-v2\nVector Database\n- ChromaDB (Persistent Mode)\nRe-Ranking Model\n- ms-marco-MiniLM-L-6-v2\nGeneration Model\n- google/flan-t5-base\nThis two-stage retrieval pipeline significantly improves answer accuracy. :contentReferenceoaicite:1"
+    "text": "Technical Architecture\nEmbedding Model\n- sentence-transformers/all-MiniLM-L6-v2\nVector Database\n- ChromaDB (Persistent Mode)\nRe-Ranking Model\n- ms-marco-MiniLM-L-6-v2\nAfter initial retrieval, an LLM-based re-ranker scores candidate chunks for relevance to the query, ensuring the most contextually appropriate passages are passed to the generator.\nGeneration Model\n- google/flan-t5-base\nThis two-stage retrieval pipeline significantly improves answer accuracy. :contentReferenceoaicite:1"
   },
   {
     "objectID": "posts/my-first-project/rag_financial_chatbot.html#conversation-memory",

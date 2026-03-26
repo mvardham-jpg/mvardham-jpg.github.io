@@ -204,6 +204,8 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li>Cross-encoder re-ranking for improved accuracy<br>
 </li>
+<li>LLM-based re-ranking for fine-grained passage scoring<br>
+</li>
 <li>Persistent vector database<br>
 </li>
 <li>Interactive Streamlit UI<br>
@@ -260,6 +262,7 @@ ul.task-list li input[type="checkbox"] {
 - ChromaDB (Persistent Mode)</p>
 <p><strong>Re-Ranking Model</strong><br>
 - ms-marco-MiniLM-L-6-v2</p>
+<p>After initial retrieval, an <strong>LLM-based re-ranker</strong> scores candidate chunks for relevance to the query, ensuring the most contextually appropriate passages are passed to the generator.</p>
 <p><strong>Generation Model</strong><br>
 - google/flan-t5-base</p>
 <p>This two-stage retrieval pipeline significantly improves answer accuracy. :contentReference<span data-index="1">oaicite:1</span></p>
